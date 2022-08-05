@@ -149,3 +149,6 @@ data/model/trained_model.h5
 src/data/data.zip
 src/data/bad_data
 src/data/PetImages
+src/data/readme*
+src/data/CDLA-Permissive*
+logs/running_logs.log

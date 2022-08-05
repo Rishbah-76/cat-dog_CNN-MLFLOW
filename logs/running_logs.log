@@ -1,0 +1,342 @@
+[2022-08-05 16:24:55,104: INFO: stage_01_getdata]: 
+********************
+[2022-08-05 16:24:55,104: INFO: stage_01_getdata]: >>>>> stage Get Data started <<<<<
+[2022-08-05 16:24:55,107: INFO: common]: yaml file: ../configs/config.yaml loaded successfully
+[2022-08-05 16:24:55,108: INFO: common]: created directory at: data
+[2022-08-05 16:24:55,108: INFO: stage_01_getdata]: downloading started...
+[2022-08-05 16:30:55,246: INFO: stage_01_getdata]: filename:data\data.zip created with info 
+Content-Type: application/octet-stream
+Accept-Ranges: bytes
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-blob-content-md5: 4TekUHNw2UJGm20meiTqBA==
+Last-Modified: Mon, 09 May 2022 20:42:07 GMT
+ETag: "0x8DA31FC621E01C4"
+Content-Length: 824887076
+Date: Fri, 05 Aug 2022 10:54:57 GMT
+Connection: close
+
+
+[2022-08-05 16:30:55,247: INFO: stage_01_getdata]: data already extracted
+[2022-08-05 16:30:55,248: INFO: common]: created directory at: data\bad_data
+[2022-08-05 16:30:55,249: INFO: common]: created directory at: data\PetImages
+[2022-08-05 16:30:55,249: INFO: stage_01_getdata]: >>>>> stage Get Data completed!<<<<<
+
+[2022-08-05 17:06:55,517: INFO: stage_01_getdata]: 
+********************
+[2022-08-05 17:06:55,518: INFO: stage_01_getdata]: >>>>> stage Get Data started <<<<<
+[2022-08-05 17:06:55,525: INFO: common]: yaml file: ../configs/config.yaml loaded successfully
+[2022-08-05 17:06:55,525: INFO: common]: created directory at: data
+[2022-08-05 17:06:55,525: INFO: stage_01_getdata]: filename:data.zip already present
+[2022-08-05 17:06:55,525: INFO: common]: extraction started...
+[2022-08-05 17:07:49,544: INFO: common]: extracted data\data.zip to data
+[2022-08-05 17:07:49,550: INFO: common]: created directory at: data\bad_data
+[2022-08-05 17:07:49,551: INFO: common]: created directory at: data\PetImages
+[2022-08-05 17:08:05,210: INFO: data_mgmt]: data\PetImages\Cat\10073.jpg not of expected format
+[2022-08-05 17:08:05,370: INFO: data_mgmt]: data\PetImages\Cat\10125.jpg not of expected format
+[2022-08-05 17:08:11,346: INFO: data_mgmt]: data\PetImages\Cat\10404.jpg not of expected format
+[2022-08-05 17:08:11,678: INFO: data_mgmt]: data\PetImages\Cat\10501.jpg not of expected format
+[2022-08-05 17:08:12,705: INFO: data_mgmt]: data\PetImages\Cat\10820.jpg not of expected format
+[2022-08-05 17:08:12,876: INFO: data_mgmt]: data\PetImages\Cat\10874.jpg not of expected format
+[2022-08-05 17:08:13,864: INFO: data_mgmt]: data\PetImages\Cat\11083.jpg not of expected format
+[2022-08-05 17:08:13,874: INFO: data_mgmt]: data\PetImages\Cat\11086.jpg not of expected format
+[2022-08-05 17:08:13,892: INFO: data_mgmt]: data\PetImages\Cat\11091.jpg not of expected format
+[2022-08-05 17:08:13,905: INFO: data_mgmt]: data\PetImages\Cat\11095.jpg not of expected format
+[2022-08-05 17:08:14,223: INFO: data_mgmt]: data\PetImages\Cat\11196.jpg not of expected format
+[2022-08-05 17:08:14,270: INFO: data_mgmt]: data\PetImages\Cat\11210.jpg not of expected format
+[2022-08-05 17:08:14,830: INFO: data_mgmt]: data\PetImages\Cat\11397.jpg not of expected format
+[2022-08-05 17:08:15,193: INFO: data_mgmt]: data\PetImages\Cat\1151.jpg not of expected format
+[2022-08-05 17:08:15,361: INFO: data_mgmt]: data\PetImages\Cat\11565.jpg not of expected format
+[2022-08-05 17:08:15,475: INFO: data_mgmt]: data\PetImages\Cat\11602.jpg not of expected format
+[2022-08-05 17:08:15,873: INFO: data_mgmt]: data\PetImages\Cat\11729.jpg not of expected format
+[2022-08-05 17:08:16,285: INFO: data_mgmt]: data\PetImages\Cat\11864.jpg not of expected format
+[2022-08-05 17:08:16,317: INFO: data_mgmt]: data\PetImages\Cat\11874.jpg not of expected format
+[2022-08-05 17:08:16,502: INFO: data_mgmt]: data\PetImages\Cat\11935.jpg not of expected format
+[2022-08-05 17:08:16,943: INFO: data_mgmt]: data\PetImages\Cat\12080.jpg not of expected format
+[2022-08-05 17:08:17,426: INFO: data_mgmt]: data\PetImages\Cat\12235.jpg not of expected format
+[2022-08-05 17:08:17,530: INFO: data_mgmt]: data\PetImages\Cat\12269.jpg not of expected format
+[2022-08-05 17:08:17,839: INFO: data_mgmt]: data\PetImages\Cat\12370.jpg not of expected format
+[2022-08-05 17:08:18,278: INFO: data_mgmt]: data\PetImages\Cat\1267.jpg not of expected format
+[2022-08-05 17:08:18,641: INFO: data_mgmt]: data\PetImages\Cat\1386.jpg not of expected format
+[2022-08-05 17:08:18,685: INFO: data_mgmt]: data\PetImages\Cat\140.jpg not of expected format
+[2022-08-05 17:08:18,914: INFO: data_mgmt]: data\PetImages\Cat\1476.jpg not of expected format
+[2022-08-05 17:08:18,936: INFO: data_mgmt]: data\PetImages\Cat\1483.jpg not of expected format
+[2022-08-05 17:08:19,770: INFO: data_mgmt]: data\PetImages\Cat\1757.jpg not of expected format
+[2022-08-05 17:08:19,945: INFO: data_mgmt]: data\PetImages\Cat\1815.jpg not of expected format
+[2022-08-05 17:08:20,241: INFO: data_mgmt]: data\PetImages\Cat\1914.jpg not of expected format
+[2022-08-05 17:08:20,309: INFO: data_mgmt]: data\PetImages\Cat\1936.jpg not of expected format
+[2022-08-05 17:08:20,313: INFO: data_mgmt]: data\PetImages\Cat\1937.jpg not of expected format
+[2022-08-05 17:08:20,573: INFO: data_mgmt]: data\PetImages\Cat\2021.jpg not of expected format
+[2022-08-05 17:08:20,814: INFO: data_mgmt]: data\PetImages\Cat\2101.jpg not of expected format
+[2022-08-05 17:08:21,076: INFO: data_mgmt]: data\PetImages\Cat\2189.jpg not of expected format
+[2022-08-05 17:08:21,420: INFO: data_mgmt]: data\PetImages\Cat\23.jpg not of expected format
+[2022-08-05 17:08:22,528: INFO: data_mgmt]: data\PetImages\Cat\2569.jpg not of expected format
+[2022-08-05 17:08:22,816: INFO: data_mgmt]: data\PetImages\Cat\2663.jpg not of expected format
+[2022-08-05 17:08:23,062: INFO: data_mgmt]: data\PetImages\Cat\2742.jpg not of expected format
+[2022-08-05 17:08:23,655: INFO: data_mgmt]: data\PetImages\Cat\2939.jpg not of expected format
+[2022-08-05 17:08:24,119: INFO: data_mgmt]: data\PetImages\Cat\3089.jpg not of expected format
+[2022-08-05 17:08:24,315: INFO: data_mgmt]: data\PetImages\Cat\3153.jpg not of expected format
+[2022-08-05 17:08:24,342: INFO: data_mgmt]: data\PetImages\Cat\3161.jpg not of expected format
+[2022-08-05 17:08:24,449: INFO: data_mgmt]: data\PetImages\Cat\3197.jpg not of expected format
+[2022-08-05 17:08:24,767: INFO: data_mgmt]: data\PetImages\Cat\3300.jpg not of expected format
+[2022-08-05 17:08:25,347: INFO: data_mgmt]: data\PetImages\Cat\3491.jpg not of expected format
+[2022-08-05 17:08:25,839: INFO: data_mgmt]: data\PetImages\Cat\3649.jpg not of expected format
+[2022-08-05 17:08:26,038: INFO: data_mgmt]: data\PetImages\Cat\3710.jpg not of expected format
+[2022-08-05 17:08:26,634: INFO: data_mgmt]: data\PetImages\Cat\391.jpg not of expected format
+[2022-08-05 17:08:26,811: INFO: data_mgmt]: data\PetImages\Cat\3967.jpg not of expected format
+[2022-08-05 17:08:26,935: INFO: data_mgmt]: data\PetImages\Cat\4000.jpg not of expected format
+[2022-08-05 17:08:27,435: INFO: data_mgmt]: data\PetImages\Cat\4165.jpg not of expected format
+[2022-08-05 17:08:27,826: INFO: data_mgmt]: data\PetImages\Cat\4293.jpg not of expected format
+[2022-08-05 17:08:27,925: INFO: data_mgmt]: data\PetImages\Cat\4322.jpg not of expected format
+[2022-08-05 17:08:27,962: INFO: data_mgmt]: data\PetImages\Cat\4334.jpg not of expected format
+[2022-08-05 17:08:28,016: INFO: data_mgmt]: data\PetImages\Cat\4351.jpg not of expected format
+[2022-08-05 17:08:28,578: INFO: data_mgmt]: data\PetImages\Cat\445.jpg not of expected format
+[2022-08-05 17:08:29,126: INFO: data_mgmt]: data\PetImages\Cat\4629.jpg not of expected format
+[2022-08-05 17:08:29,495: INFO: data_mgmt]: data\PetImages\Cat\4750.jpg not of expected format
+[2022-08-05 17:08:30,066: INFO: data_mgmt]: data\PetImages\Cat\4821.jpg not of expected format
+[2022-08-05 17:08:30,102: INFO: data_mgmt]: data\PetImages\Cat\4833.jpg not of expected format
+[2022-08-05 17:08:32,309: INFO: data_mgmt]: data\PetImages\Cat\4874.jpg not of expected format
+[2022-08-05 17:08:32,506: INFO: data_mgmt]: data\PetImages\Cat\4929.jpg not of expected format
+[2022-08-05 17:08:32,961: INFO: data_mgmt]: data\PetImages\Cat\5077.jpg not of expected format
+[2022-08-05 17:08:32,998: INFO: data_mgmt]: data\PetImages\Cat\5089.jpg not of expected format
+[2022-08-05 17:08:33,873: INFO: data_mgmt]: data\PetImages\Cat\5370.jpg not of expected format
+[2022-08-05 17:08:34,428: INFO: data_mgmt]: data\PetImages\Cat\5553.jpg not of expected format
+[2022-08-05 17:08:34,622: INFO: data_mgmt]: data\PetImages\Cat\5614.jpg not of expected format
+[2022-08-05 17:08:34,844: INFO: data_mgmt]: data\PetImages\Cat\5686.jpg not of expected format
+[2022-08-05 17:08:35,253: INFO: data_mgmt]: data\PetImages\Cat\5819.jpg not of expected format
+[2022-08-05 17:08:36,272: INFO: data_mgmt]: data\PetImages\Cat\6029.jpg not of expected format
+[2022-08-05 17:08:37,380: INFO: data_mgmt]: data\PetImages\Cat\6376.jpg not of expected format
+[2022-08-05 17:08:37,590: INFO: data_mgmt]: data\PetImages\Cat\6435.jpg not of expected format
+[2022-08-05 17:08:37,599: INFO: data_mgmt]: data\PetImages\Cat\6438.jpg not of expected format
+[2022-08-05 17:08:37,746: INFO: data_mgmt]: data\PetImages\Cat\6486.jpg not of expected format
+[2022-08-05 17:08:37,763: INFO: data_mgmt]: data\PetImages\Cat\6491.jpg not of expected format
+[2022-08-05 17:08:38,213: INFO: data_mgmt]: data\PetImages\Cat\660.jpg not of expected format
+[2022-08-05 17:08:38,405: INFO: data_mgmt]: data\PetImages\Cat\666.jpg not of expected format
+[2022-08-05 17:08:38,405: INFO: data_mgmt]: moved bad file from data\PetImages\Cat\666.jpg to data\bad_data\666.jpg
+[2022-08-05 17:08:38,405: ERROR: data_mgmt]: cannot identify image file 'data\\PetImages\\Cat\\666.jpg'
+Traceback (most recent call last):
+  File "..\src\utils\data_mgmt.py", line 23, in validate_image
+    img = Image.open(path_to_img)
+  File "D:\anaconda\envs\catdog_mlflow\lib\site-packages\PIL\Image.py", line 3148, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file 'data\\PetImages\\Cat\\666.jpg'
+[2022-08-05 17:08:39,495: INFO: data_mgmt]: data\PetImages\Cat\6768.jpg not of expected format
+[2022-08-05 17:08:39,899: INFO: data_mgmt]: data\PetImages\Cat\6900.jpg not of expected format
+[2022-08-05 17:08:39,916: INFO: data_mgmt]: data\PetImages\Cat\6906.jpg not of expected format
+[2022-08-05 17:08:40,147: INFO: data_mgmt]: data\PetImages\Cat\6980.jpg not of expected format
+[2022-08-05 17:08:40,224: INFO: data_mgmt]: data\PetImages\Cat\7003.jpg not of expected format
+[2022-08-05 17:08:40,968: INFO: data_mgmt]: data\PetImages\Cat\7245.jpg not of expected format
+[2022-08-05 17:08:41,062: INFO: data_mgmt]: data\PetImages\Cat\7276.jpg not of expected format
+[2022-08-05 17:08:41,621: INFO: data_mgmt]: data\PetImages\Cat\7441.jpg not of expected format
+[2022-08-05 17:08:41,764: INFO: data_mgmt]: data\PetImages\Cat\7487.jpg not of expected format
+[2022-08-05 17:08:41,816: INFO: data_mgmt]: data\PetImages\Cat\7502.jpg not of expected format
+[2022-08-05 17:08:42,250: INFO: data_mgmt]: data\PetImages\Cat\7642.jpg not of expected format
+[2022-08-05 17:08:42,265: INFO: data_mgmt]: data\PetImages\Cat\7647.jpg not of expected format
+[2022-08-05 17:08:43,355: INFO: data_mgmt]: data\PetImages\Cat\780.jpg not of expected format
+[2022-08-05 17:08:43,501: INFO: data_mgmt]: data\PetImages\Cat\7845.jpg not of expected format
+[2022-08-05 17:08:44,430: INFO: data_mgmt]: data\PetImages\Cat\7968.jpg not of expected format
+[2022-08-05 17:08:44,462: INFO: data_mgmt]: data\PetImages\Cat\7978.jpg not of expected format
+[2022-08-05 17:08:45,003: INFO: data_mgmt]: data\PetImages\Cat\8054.jpg not of expected format
+[2022-08-05 17:08:46,324: INFO: data_mgmt]: data\PetImages\Cat\8157.jpg not of expected format
+[2022-08-05 17:08:46,683: INFO: data_mgmt]: data\PetImages\Cat\8183.jpg not of expected format
+[2022-08-05 17:08:47,036: INFO: data_mgmt]: data\PetImages\Cat\8295.jpg not of expected format
+[2022-08-05 17:08:47,200: INFO: data_mgmt]: data\PetImages\Cat\8335.jpg not of expected format
+[2022-08-05 17:08:47,551: INFO: data_mgmt]: data\PetImages\Cat\8415.jpg not of expected format
+[2022-08-05 17:08:47,756: INFO: data_mgmt]: data\PetImages\Cat\8470.jpg not of expected format
+[2022-08-05 17:08:47,855: INFO: data_mgmt]: data\PetImages\Cat\850.jpg not of expected format
+[2022-08-05 17:08:48,033: INFO: data_mgmt]: data\PetImages\Cat\8553.jpg not of expected format
+[2022-08-05 17:08:48,962: INFO: data_mgmt]: data\PetImages\Cat\8832.jpg not of expected format
+[2022-08-05 17:08:49,356: INFO: data_mgmt]: data\PetImages\Cat\8958.jpg not of expected format
+[2022-08-05 17:08:49,824: INFO: data_mgmt]: data\PetImages\Cat\910.jpg not of expected format
+[2022-08-05 17:08:49,828: INFO: data_mgmt]: data\PetImages\Cat\9100.jpg not of expected format
+[2022-08-05 17:08:50,062: INFO: data_mgmt]: data\PetImages\Cat\9171.jpg not of expected format
+[2022-08-05 17:08:50,183: INFO: data_mgmt]: data\PetImages\Cat\9208.jpg not of expected format
+[2022-08-05 17:08:50,309: INFO: data_mgmt]: data\PetImages\Cat\925.jpg not of expected format
+[2022-08-05 17:08:50,572: INFO: data_mgmt]: data\PetImages\Cat\9328.jpg not of expected format
+[2022-08-05 17:08:50,673: INFO: data_mgmt]: data\PetImages\Cat\936.jpg not of expected format
+[2022-08-05 17:08:50,680: INFO: data_mgmt]: data\PetImages\Cat\9361.jpg not of expected format
+[2022-08-05 17:08:51,309: INFO: data_mgmt]: data\PetImages\Cat\9565.jpg not of expected format
+[2022-08-05 17:08:51,477: INFO: data_mgmt]: data\PetImages\Cat\9619.jpg not of expected format
+[2022-08-05 17:08:51,973: INFO: data_mgmt]: data\PetImages\Cat\9778.jpg not of expected format
+[2022-08-05 17:08:52,661: INFO: data_mgmt]: data\PetImages\Cat\Thumbs.db not of expected format
+[2022-08-05 17:08:52,662: INFO: data_mgmt]: moved bad file from data\PetImages\Cat\Thumbs.db to data\bad_data\Thumbs.db
+[2022-08-05 17:08:52,662: ERROR: data_mgmt]: cannot identify image file 'data\\PetImages\\Cat\\Thumbs.db'
+Traceback (most recent call last):
+  File "..\src\utils\data_mgmt.py", line 23, in validate_image
+    img = Image.open(path_to_img)
+  File "D:\anaconda\envs\catdog_mlflow\lib\site-packages\PIL\Image.py", line 3148, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file 'data\\PetImages\\Cat\\Thumbs.db'
+[2022-08-05 17:08:53,172: INFO: data_mgmt]: data\PetImages\Dog\10158.jpg not of expected format
+[2022-08-05 17:08:53,196: INFO: data_mgmt]: data\PetImages\Dog\10163.jpg not of expected format
+[2022-08-05 17:08:53,219: INFO: data_mgmt]: data\PetImages\Dog\1017.jpg not of expected format
+[2022-08-05 17:08:53,235: INFO: data_mgmt]: data\PetImages\Dog\10173.jpg not of expected format
+[2022-08-05 17:08:53,855: INFO: data_mgmt]: data\PetImages\Dog\10351.jpg not of expected format
+[2022-08-05 17:08:53,865: INFO: data_mgmt]: data\PetImages\Dog\10353.jpg not of expected format
+[2022-08-05 17:08:53,962: INFO: data_mgmt]: data\PetImages\Dog\10383.jpg not of expected format
+[2022-08-05 17:08:54,020: INFO: data_mgmt]: data\PetImages\Dog\10401.jpg not of expected format
+[2022-08-05 17:08:54,764: INFO: data_mgmt]: data\PetImages\Dog\10637.jpg not of expected format
+[2022-08-05 17:08:54,885: INFO: data_mgmt]: data\PetImages\Dog\10678.jpg not of expected format
+[2022-08-05 17:08:54,970: INFO: data_mgmt]: data\PetImages\Dog\10705.jpg not of expected format
+[2022-08-05 17:08:55,030: INFO: data_mgmt]: data\PetImages\Dog\10726.jpg not of expected format
+[2022-08-05 17:08:55,052: INFO: data_mgmt]: data\PetImages\Dog\10733.jpg not of expected format
+[2022-08-05 17:08:55,089: INFO: data_mgmt]: data\PetImages\Dog\10745.jpg not of expected format
+[2022-08-05 17:08:55,093: INFO: data_mgmt]: data\PetImages\Dog\10747.jpg not of expected format
+[2022-08-05 17:08:55,235: INFO: data_mgmt]: data\PetImages\Dog\10797.jpg not of expected format
+[2022-08-05 17:08:55,439: INFO: data_mgmt]: data\PetImages\Dog\10863.jpg not of expected format
+[2022-08-05 17:08:55,577: INFO: data_mgmt]: data\PetImages\Dog\10907.jpg not of expected format
+[2022-08-05 17:08:55,705: INFO: data_mgmt]: data\PetImages\Dog\10949.jpg not of expected format
+[2022-08-05 17:08:56,018: INFO: data_mgmt]: data\PetImages\Dog\10969.jpg not of expected format
+[2022-08-05 17:08:56,037: INFO: data_mgmt]: data\PetImages\Dog\10972.jpg not of expected format
+[2022-08-05 17:08:56,626: INFO: data_mgmt]: data\PetImages\Dog\11166.jpg not of expected format
+[2022-08-05 17:08:56,638: INFO: data_mgmt]: data\PetImages\Dog\1117.jpg not of expected format
+[2022-08-05 17:08:56,822: INFO: data_mgmt]: data\PetImages\Dog\11233.jpg not of expected format
+[2022-08-05 17:08:56,891: INFO: data_mgmt]: data\PetImages\Dog\11253.jpg not of expected format
+[2022-08-05 17:08:56,996: INFO: data_mgmt]: data\PetImages\Dog\11285.jpg not of expected format
+[2022-08-05 17:08:57,375: INFO: data_mgmt]: data\PetImages\Dog\11410.jpg not of expected format
+[2022-08-05 17:08:57,846: INFO: data_mgmt]: data\PetImages\Dog\11560.jpg not of expected format
+[2022-08-05 17:08:57,940: INFO: data_mgmt]: data\PetImages\Dog\11590.jpg not of expected format
+[2022-08-05 17:08:58,189: INFO: data_mgmt]: data\PetImages\Dog\11675.jpg not of expected format
+[2022-08-05 17:08:58,206: INFO: data_mgmt]: data\PetImages\Dog\1168.jpg not of expected format
+[2022-08-05 17:08:58,253: INFO: data_mgmt]: data\PetImages\Dog\11692.jpg not of expected format
+[2022-08-05 17:08:58,289: INFO: data_mgmt]: data\PetImages\Dog\11702.jpg not of expected format
+[2022-08-05 17:08:58,290: INFO: data_mgmt]: moved bad file from data\PetImages\Dog\11702.jpg to data\bad_data\11702.jpg
+[2022-08-05 17:08:58,290: ERROR: data_mgmt]: cannot identify image file 'data\\PetImages\\Dog\\11702.jpg'
+Traceback (most recent call last):
+  File "..\src\utils\data_mgmt.py", line 23, in validate_image
+    img = Image.open(path_to_img)
+  File "D:\anaconda\envs\catdog_mlflow\lib\site-packages\PIL\Image.py", line 3148, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file 'data\\PetImages\\Dog\\11702.jpg'
+[2022-08-05 17:08:58,725: INFO: data_mgmt]: data\PetImages\Dog\11849.jpg not of expected format
+[2022-08-05 17:08:58,739: INFO: data_mgmt]: data\PetImages\Dog\11853.jpg not of expected format
+[2022-08-05 17:08:58,912: INFO: data_mgmt]: data\PetImages\Dog\11912.jpg not of expected format
+[2022-08-05 17:08:59,477: INFO: data_mgmt]: data\PetImages\Dog\12102.jpg not of expected format
+[2022-08-05 17:08:59,513: INFO: data_mgmt]: data\PetImages\Dog\12114.jpg not of expected format
+[2022-08-05 17:09:00,026: INFO: data_mgmt]: data\PetImages\Dog\12289.jpg not of expected format
+[2022-08-05 17:09:00,673: INFO: data_mgmt]: data\PetImages\Dog\1259.jpg not of expected format
+[2022-08-05 17:09:00,817: INFO: data_mgmt]: data\PetImages\Dog\1308.jpg not of expected format
+[2022-08-05 17:09:00,955: INFO: data_mgmt]: data\PetImages\Dog\1356.jpg not of expected format
+[2022-08-05 17:09:02,161: INFO: data_mgmt]: data\PetImages\Dog\1773.jpg not of expected format
+[2022-08-05 17:09:02,207: INFO: data_mgmt]: data\PetImages\Dog\1789.jpg not of expected format
+[2022-08-05 17:09:02,438: INFO: data_mgmt]: data\PetImages\Dog\1866.jpg not of expected format
+[2022-08-05 17:09:02,490: INFO: data_mgmt]: data\PetImages\Dog\1884.jpg not of expected format
+[2022-08-05 17:09:02,544: INFO: data_mgmt]: data\PetImages\Dog\1900.jpg not of expected format
+[2022-08-05 17:09:03,800: INFO: data_mgmt]: data\PetImages\Dog\2317.jpg not of expected format
+[2022-08-05 17:09:03,866: INFO: data_mgmt]: data\PetImages\Dog\2339.jpg not of expected format
+[2022-08-05 17:09:03,913: INFO: data_mgmt]: data\PetImages\Dog\2353.jpg not of expected format
+[2022-08-05 17:09:04,005: INFO: data_mgmt]: data\PetImages\Dog\2384.jpg not of expected format
+[2022-08-05 17:09:04,290: INFO: data_mgmt]: data\PetImages\Dog\2479.jpg not of expected format
+[2022-08-05 17:09:04,426: INFO: data_mgmt]: data\PetImages\Dog\2494.jpg not of expected format
+[2022-08-05 17:09:05,019: INFO: data_mgmt]: data\PetImages\Dog\2688.jpg not of expected format
+[2022-08-05 17:09:05,623: INFO: data_mgmt]: data\PetImages\Dog\2877.jpg not of expected format
+[2022-08-05 17:09:05,711: INFO: data_mgmt]: data\PetImages\Dog\2905.jpg not of expected format
+[2022-08-05 17:09:05,744: INFO: data_mgmt]: data\PetImages\Dog\2915.jpg not of expected format
+[2022-08-05 17:09:05,883: INFO: data_mgmt]: data\PetImages\Dog\296.jpg not of expected format
+[2022-08-05 17:09:06,125: INFO: data_mgmt]: data\PetImages\Dog\3038.jpg not of expected format
+[2022-08-05 17:09:06,419: INFO: data_mgmt]: data\PetImages\Dog\3136.jpg not of expected format
+[2022-08-05 17:09:06,477: INFO: data_mgmt]: data\PetImages\Dog\3155.jpg not of expected format
+[2022-08-05 17:09:06,776: INFO: data_mgmt]: data\PetImages\Dog\3252.jpg not of expected format
+[2022-08-05 17:09:06,880: INFO: data_mgmt]: data\PetImages\Dog\3288.jpg not of expected format
+[2022-08-05 17:09:06,988: INFO: data_mgmt]: data\PetImages\Dog\3320.jpg not of expected format
+[2022-08-05 17:09:07,689: INFO: data_mgmt]: data\PetImages\Dog\3546.jpg not of expected format
+[2022-08-05 17:09:07,812: INFO: data_mgmt]: data\PetImages\Dog\3588.jpg not of expected format
+[2022-08-05 17:09:08,527: INFO: data_mgmt]: data\PetImages\Dog\3823.jpg not of expected format
+[2022-08-05 17:09:08,711: INFO: data_mgmt]: data\PetImages\Dog\3885.jpg not of expected format
+[2022-08-05 17:09:08,839: INFO: data_mgmt]: data\PetImages\Dog\3927.jpg not of expected format
+[2022-08-05 17:09:09,313: INFO: data_mgmt]: data\PetImages\Dog\4086.jpg not of expected format
+[2022-08-05 17:09:09,462: INFO: data_mgmt]: data\PetImages\Dog\4134.jpg not of expected format
+[2022-08-05 17:09:09,482: INFO: data_mgmt]: data\PetImages\Dog\414.jpg not of expected format
+[2022-08-05 17:09:09,837: INFO: data_mgmt]: data\PetImages\Dog\4203.jpg not of expected format
+[2022-08-05 17:09:10,004: INFO: data_mgmt]: data\PetImages\Dog\4257.jpg not of expected format
+[2022-08-05 17:09:10,582: INFO: data_mgmt]: data\PetImages\Dog\4301.jpg not of expected format
+[2022-08-05 17:09:10,778: INFO: data_mgmt]: data\PetImages\Dog\4367.jpg not of expected format
+[2022-08-05 17:09:11,234: INFO: data_mgmt]: data\PetImages\Dog\4515.jpg not of expected format
+[2022-08-05 17:09:11,613: INFO: data_mgmt]: data\PetImages\Dog\4640.jpg not of expected format
+[2022-08-05 17:09:11,657: INFO: data_mgmt]: data\PetImages\Dog\4654.jpg not of expected format
+[2022-08-05 17:09:12,318: INFO: data_mgmt]: data\PetImages\Dog\4855.jpg not of expected format
+[2022-08-05 17:09:12,555: INFO: data_mgmt]: data\PetImages\Dog\4924.jpg not of expected format
+[2022-08-05 17:09:12,829: INFO: data_mgmt]: data\PetImages\Dog\50.jpg not of expected format
+[2022-08-05 17:09:13,152: INFO: data_mgmt]: data\PetImages\Dog\5104.jpg not of expected format
+[2022-08-05 17:09:13,503: INFO: data_mgmt]: data\PetImages\Dog\522.jpg not of expected format
+[2022-08-05 17:09:13,575: INFO: data_mgmt]: data\PetImages\Dog\5243.jpg not of expected format
+[2022-08-05 17:09:13,639: INFO: data_mgmt]: data\PetImages\Dog\5263.jpg not of expected format
+[2022-08-05 17:09:14,145: INFO: data_mgmt]: data\PetImages\Dog\543.jpg not of expected format
+[2022-08-05 17:09:14,509: INFO: data_mgmt]: data\PetImages\Dog\5547.jpg not of expected format
+[2022-08-05 17:09:14,683: INFO: data_mgmt]: data\PetImages\Dog\5604.jpg not of expected format
+[2022-08-05 17:09:14,700: INFO: data_mgmt]: data\PetImages\Dog\561.jpg not of expected format
+[2022-08-05 17:09:14,726: INFO: data_mgmt]: data\PetImages\Dog\5618.jpg not of expected format
+[2022-08-05 17:09:14,829: INFO: data_mgmt]: data\PetImages\Dog\565.jpg not of expected format
+[2022-08-05 17:09:15,076: INFO: data_mgmt]: data\PetImages\Dog\573.jpg not of expected format
+[2022-08-05 17:09:15,082: INFO: data_mgmt]: data\PetImages\Dog\5730.jpg not of expected format
+[2022-08-05 17:09:15,097: INFO: data_mgmt]: data\PetImages\Dog\5736.jpg not of expected format
+[2022-08-05 17:09:15,263: INFO: data_mgmt]: data\PetImages\Dog\5790.jpg not of expected format
+[2022-08-05 17:09:15,281: INFO: data_mgmt]: data\PetImages\Dog\5797.jpg not of expected format
+[2022-08-05 17:09:16,146: INFO: data_mgmt]: data\PetImages\Dog\5955.jpg not of expected format
+[2022-08-05 17:09:18,172: INFO: data_mgmt]: data\PetImages\Dog\6032.jpg not of expected format
+[2022-08-05 17:09:18,251: INFO: data_mgmt]: data\PetImages\Dog\6059.jpg not of expected format
+[2022-08-05 17:09:18,332: INFO: data_mgmt]: data\PetImages\Dog\6086.jpg not of expected format
+[2022-08-05 17:09:18,725: INFO: data_mgmt]: data\PetImages\Dog\6213.jpg not of expected format
+[2022-08-05 17:09:18,799: INFO: data_mgmt]: data\PetImages\Dog\6238.jpg not of expected format
+[2022-08-05 17:09:18,823: INFO: data_mgmt]: data\PetImages\Dog\6245.jpg not of expected format
+[2022-08-05 17:09:19,011: INFO: data_mgmt]: data\PetImages\Dog\6305.jpg not of expected format
+[2022-08-05 17:09:19,049: INFO: data_mgmt]: data\PetImages\Dog\6318.jpg not of expected format
+[2022-08-05 17:09:19,398: INFO: data_mgmt]: data\PetImages\Dog\6430.jpg not of expected format
+[2022-08-05 17:09:19,614: INFO: data_mgmt]: data\PetImages\Dog\6500.jpg not of expected format
+[2022-08-05 17:09:19,624: INFO: data_mgmt]: data\PetImages\Dog\6503.jpg not of expected format
+[2022-08-05 17:09:19,785: INFO: data_mgmt]: data\PetImages\Dog\6555.jpg not of expected format
+[2022-08-05 17:09:20,014: INFO: data_mgmt]: data\PetImages\Dog\663.jpg not of expected format
+[2022-08-05 17:09:20,276: INFO: data_mgmt]: data\PetImages\Dog\6718.jpg not of expected format
+[2022-08-05 17:09:20,674: INFO: data_mgmt]: data\PetImages\Dog\6855.jpg not of expected format
+[2022-08-05 17:09:20,823: INFO: data_mgmt]: data\PetImages\Dog\6904.jpg not of expected format
+[2022-08-05 17:09:21,339: INFO: data_mgmt]: data\PetImages\Dog\7083.jpg not of expected format
+[2022-08-05 17:09:21,427: INFO: data_mgmt]: data\PetImages\Dog\7112.jpg not of expected format
+[2022-08-05 17:09:21,474: INFO: data_mgmt]: data\PetImages\Dog\7128.jpg not of expected format
+[2022-08-05 17:09:21,489: INFO: data_mgmt]: data\PetImages\Dog\7133.jpg not of expected format
+[2022-08-05 17:09:21,654: INFO: data_mgmt]: data\PetImages\Dog\719.jpg not of expected format
+[2022-08-05 17:09:22,014: INFO: data_mgmt]: data\PetImages\Dog\7311.jpg not of expected format
+[2022-08-05 17:09:22,186: INFO: data_mgmt]: data\PetImages\Dog\7369.jpg not of expected format
+[2022-08-05 17:09:22,455: INFO: data_mgmt]: data\PetImages\Dog\7459.jpg not of expected format
+[2022-08-05 17:09:22,576: INFO: data_mgmt]: data\PetImages\Dog\7496.jpg not of expected format
+[2022-08-05 17:09:22,635: INFO: data_mgmt]: data\PetImages\Dog\7514.jpg not of expected format
+[2022-08-05 17:09:23,055: INFO: data_mgmt]: data\PetImages\Dog\7652.jpg not of expected format
+[2022-08-05 17:09:23,259: INFO: data_mgmt]: data\PetImages\Dog\7718.jpg not of expected format
+[2022-08-05 17:09:23,294: INFO: data_mgmt]: data\PetImages\Dog\7729.jpg not of expected format
+[2022-08-05 17:09:23,323: INFO: data_mgmt]: data\PetImages\Dog\7739.jpg not of expected format
+[2022-08-05 17:09:23,338: INFO: data_mgmt]: data\PetImages\Dog\7743.jpg not of expected format
+[2022-08-05 17:09:24,025: INFO: data_mgmt]: data\PetImages\Dog\7969.jpg not of expected format
+[2022-08-05 17:09:24,259: INFO: data_mgmt]: data\PetImages\Dog\7989.jpg not of expected format
+[2022-08-05 17:09:24,689: INFO: data_mgmt]: data\PetImages\Dog\8126.jpg not of expected format
+[2022-08-05 17:09:25,052: INFO: data_mgmt]: data\PetImages\Dog\8194.jpg not of expected format
+[2022-08-05 17:09:25,565: INFO: data_mgmt]: data\PetImages\Dog\8364.jpg not of expected format
+[2022-08-05 17:09:26,068: INFO: data_mgmt]: data\PetImages\Dog\8521.jpg not of expected format
+[2022-08-05 17:09:26,191: INFO: data_mgmt]: data\PetImages\Dog\8557.jpg not of expected format
+[2022-08-05 17:09:26,213: INFO: data_mgmt]: data\PetImages\Dog\8563.jpg not of expected format
+[2022-08-05 17:09:26,477: INFO: data_mgmt]: data\PetImages\Dog\8641.jpg not of expected format
+[2022-08-05 17:09:26,650: INFO: data_mgmt]: data\PetImages\Dog\8693.jpg not of expected format
+[2022-08-05 17:09:26,728: INFO: data_mgmt]: data\PetImages\Dog\8715.jpg not of expected format
+[2022-08-05 17:09:26,778: INFO: data_mgmt]: data\PetImages\Dog\8730.jpg not of expected format
+[2022-08-05 17:09:27,718: INFO: data_mgmt]: data\PetImages\Dog\9026.jpg not of expected format
+[2022-08-05 17:09:28,210: INFO: data_mgmt]: data\PetImages\Dog\9043.jpg not of expected format
+[2022-08-05 17:09:28,316: INFO: data_mgmt]: data\PetImages\Dog\9078.jpg not of expected format
+[2022-08-05 17:09:28,531: INFO: data_mgmt]: data\PetImages\Dog\9145.jpg not of expected format
+[2022-08-05 17:09:28,659: INFO: data_mgmt]: data\PetImages\Dog\9188.jpg not of expected format
+[2022-08-05 17:09:29,219: INFO: data_mgmt]: data\PetImages\Dog\9367.jpg not of expected format
+[2022-08-05 17:09:29,365: INFO: data_mgmt]: data\PetImages\Dog\9414.jpg not of expected format
+[2022-08-05 17:09:29,635: INFO: data_mgmt]: data\PetImages\Dog\9500.jpg not of expected format
+[2022-08-05 17:09:29,806: INFO: data_mgmt]: data\PetImages\Dog\9556.jpg not of expected format
+[2022-08-05 17:09:30,062: INFO: data_mgmt]: data\PetImages\Dog\9640.jpg not of expected format
+[2022-08-05 17:09:30,071: INFO: data_mgmt]: data\PetImages\Dog\9643.jpg not of expected format
+[2022-08-05 17:09:30,697: INFO: data_mgmt]: data\PetImages\Dog\9851.jpg not of expected format
+[2022-08-05 17:09:31,031: INFO: data_mgmt]: data\PetImages\Dog\9961.jpg not of expected format
+[2022-08-05 17:09:31,048: INFO: data_mgmt]: data\PetImages\Dog\9967.jpg not of expected format
+[2022-08-05 17:09:31,166: INFO: data_mgmt]: data\PetImages\Dog\Thumbs.db not of expected format
+[2022-08-05 17:09:31,190: INFO: data_mgmt]: moved bad file from data\PetImages\Dog\Thumbs.db to data\bad_data\Thumbs.db
+[2022-08-05 17:09:31,190: ERROR: data_mgmt]: cannot identify image file 'data\\PetImages\\Dog\\Thumbs.db'
+Traceback (most recent call last):
+  File "..\src\utils\data_mgmt.py", line 23, in validate_image
+    img = Image.open(path_to_img)
+  File "D:\anaconda\envs\catdog_mlflow\lib\site-packages\PIL\Image.py", line 3148, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file 'data\\PetImages\\Dog\\Thumbs.db'
+[2022-08-05 17:09:31,191: INFO: stage_01_getdata]: >>>>> stage Get Data completed!<<<<<
+

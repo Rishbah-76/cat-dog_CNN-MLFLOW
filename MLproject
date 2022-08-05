@@ -1,4 +1,4 @@
-name: MLflow-app
+name: CNN_catDog-app
 
 conda_env: conda.yaml
 

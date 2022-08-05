@@ -1,5 +1,5 @@
 # MLflow-project-template
-MLflow project template
+Cat and Dog classification Project with MLflow for automataion as a part of AIops
 
 ## STEPS -
 

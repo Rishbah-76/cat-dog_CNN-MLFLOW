@@ -152,3 +152,4 @@ src/data/PetImages
 src/data/readme*
 src/data/CDLA-Permissive*
 logs/running_logs.log
+src/mlruns
